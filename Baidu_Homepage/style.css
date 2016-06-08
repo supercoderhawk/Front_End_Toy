@@ -1,0 +1,16 @@
+.barList{
+    margin: 5px;
+    padding: 0px;
+    float: right;
+    
+
+}
+.barList li, .barList div{
+    display: inline;
+}
+
+#searchText, #searchButton{
+    float: left;
+
+
+}
