@@ -1,22 +1,3 @@
-.barList{
-    margin: 5px;
-    padding: 0px;
-    float: right;
-
-
-}
-.barList li, .barList div{
-    display: inline;
-}
-
-.search{
-    display: block;
-}
-
-#searchButton{
-    float: right;
-}
-
-.mobileBD{
-    display: block;
+.bold{
+    
 }

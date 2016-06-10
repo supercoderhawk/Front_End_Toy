@@ -1,0 +1,43 @@
+.barList{
+    margin: 5px;
+    padding: 0px;
+    float: right;
+}
+.barList li, .barList div{
+    display: inline;
+}
+
+#search input{
+    margin: -4px;
+
+}
+
+.mobileBD{
+    display: inline;
+    position: absolute;
+    left: 20%;
+    right: 35%
+}
+.nuomi{
+    display: inline;
+    position: absolute;
+    left: 35%;
+    right: 50%;
+}
+.qr{
+    display: inline;
+}
+.firstLine, .secondLine{
+
+}
+.qrDes{
+    display: inline-block;
+}
+.desc{
+    display: inline;
+    position: absolute;
+    left: 50%;
+}
+.footer > div{
+    top: 70%;
+}

@@ -4,6 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <link rel="stylesheet" href="style.css" media="screen" charset="utf-8">
+  <link rel="stylesheet" href="layout.css" media="screen" charset="utf-8">
   <title>百度一下，你就知道</title>
 </head>
 
@@ -11,7 +12,7 @@
 
   <!--顶部工具条-->
   <ul class="barList">
-    <div id="bold">
+    <div class="bold">
       <li><a href="#">糯米</a></li>
       <li><a href="#">新闻</a></li>
       <li><a href="#">hao123</a></li>
@@ -19,11 +20,11 @@
       <li><a href="#">视频</a></li>
       <li><a href="#">贴吧</a></li>
     </div>
-    <div id="normal">
+    <div class="normal">
       <li><a href="#">登录</a></li>
       <li><a href="#">设置</a></li>
     </div>
-    <div id="more">
+    <div class="more">
       <li><a href="#">更多产品</a></li>
     </div>
   </ul>
@@ -32,48 +33,48 @@
   <img src="image/bd_logo1.png" />
 
   <!--搜索表单-->
-  <form class="search" action="index.html" method="post">
+  <form id="search" action="index.html" method="post">
     <input type="text" id="searchText" name="search" value="">
     <input type="submit" id="searchButton" name="submit" value="百度一下">
   </form>
 
   <!--底部信息-->
-  <div class="mobileBD">
-    <img src="image/mobileBD.png" alt="手机百度" />
-    <p id="mdb1">
-      手机百度
-    </p>
-    <p id="mbd">
-      快人一步
-    </p>
+  <div class="footer">
+    <div class="mobileBD">
+      <img class="qr" src="image/mobileBD.png" alt="手机百度" />
+      <div class="qrDes">
+        <div class="firstLine">手机百度</div>
+        <div class="secondLine">快人一步</div>
+      </div>
+    </div>
+
+    <div class="nuomi">
+      <img class="qr" src="image/nuomi.png" alt="百度糯米" />
+      <div class="qrDes">
+        <div class="firstLine">百度糯米</div>
+        <div class="secondLine">一元大餐</div>
+      </div>
+    </div>
+
+    <div class="desc">
+      <p>
+        <p>
+          <a href="#">把百度设为主页</a>
+          <a href="#">关于百度</a>
+          <a href="#">About Baidu</a>
+        </p>
+        <p>
+          &#169;2016Baidu <a href="#">使用百度前必读</a>
+          <a href="#">意见反馈</a> 京ICP证030173号
+        </p>
+        <p>
+          京公网安备11000002000001号
+        </p>
+
+      </p>
+    </div>
+
   </div>
-
-  <div class="nuomi">
-    <img src="image/nuomi.png" alt="百度糯米" />
-    <p>
-      百度糯米
-    </p>
-    <p>
-      一元大餐
-    </p>
-  </div>
-
-  <p>
-    <p>
-      <a href="#">把百度设为主页</a>
-      <a href="#">关于百度</a>
-      <a href="#">About Baidu</a>
-    </p>
-    <p>
-      &#169;2016Baidu <a href="#">使用百度前必读</a>
-      <a href="#">意见反馈</a> 京ICP证030173号
-    </p>
-    <p>
-      京公网安备11000002000001号
-    </p>
-
-  </p>
-
 
 </body>
 
