@@ -7,8 +7,6 @@
     display: inline;
 }
 
-
-
 #searchText{
     position: absolute;
     left: 700px;
@@ -16,7 +14,7 @@
     height: 30px;
 }
 #searchButton{
-    
+
     position: absolute;
     left: 1200px;
     width: 100px;
