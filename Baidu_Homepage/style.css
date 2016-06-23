@@ -4,3 +4,12 @@
 .barList a{
     font-size: 13px;
 }
+.barList a:visited,.barList a:link{
+    color: black;
+}
+.footer a:visited, .footer a:link{
+    color: #999;
+}
+.secondLine{
+    color: #999;
+}
