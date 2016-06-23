@@ -1,34 +1,51 @@
 .barList{
     margin: 5px;
     padding: 0px;
-    float: right;
+    text-align: right;
+    display:block;
 }
 .barList li, .barList div{
+    text-align: center;
     display: inline;
 }
+.barList li{
+    margin-left: 15px;
+    line-height: 24px;
+}
+.barList a:visited,.barList a:link{
+    color: black;
+}
+.more{
+    background-color: #38f;
+    margin: 5px 5px;
+}
 #main{
+    margin-top: 5%;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
 }
 
 #main img{
-    display: block;
     text-align: center;
-    margin-left:auto;
-    margin-right: auto;
-}
+    width: 270px;
+    height: 129px;
 
+}
+#search{
+    margin-top: 2%;
+}
 #searchText{
 
     width: 500px;
     height: 30px;
 }
 #searchButton{
-
+    margin: 0;
+    padding: 0;
 
     width: 100px;
-    height: 35px;
+    height: 34px;
     background-color:  #38f;
 
 }
