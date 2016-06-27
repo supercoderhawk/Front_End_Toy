@@ -7,7 +7,7 @@
 .barList a:visited,.barList a:link{
     color: black;
 }
-.footer a:visited, .footer a:link{
+.footer a:visited, .footer a:link, .footer p{
     color: #999;
 }
 .secondLine{
@@ -29,4 +29,37 @@
 
 #searchButton{
     color: white;
+}
+.desc{
+    text-align: justify;
+}
+.descFirst a:nth-child(2){
+    margin-left: 62px;
+}
+.descFirst a:last-child{
+    margin-left: 62px;
+}
+.desc p,.desc a{
+    font-size: 12px;
+    font-family: arial;
+}
+.icp{
+    position: relative;
+    display: inline-block;
+    top: 3px;
+    background:url(./image/icons.png);
+    background-position: -600px -96px;
+    width: 14px;
+    height: 17px;
+
+}
+
+.ga{
+    position: relative;
+    display: inline-block;
+    top: 3px;
+    background:url(./image/icons.png);
+    background-position: -623px -96px;
+    width: 14px;
+    height: 17px;
 }

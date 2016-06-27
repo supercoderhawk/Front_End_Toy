@@ -15,4 +15,5 @@ window.onload = function(){
     setting = document.getElementById('setting');
     setting.onmousemove = displaySearchMenu;
     setting.onmouseout = hideSearchMenu;
+    
 }
