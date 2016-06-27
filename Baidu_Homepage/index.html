@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="layout.css" media="screen" charset="utf-8">
   <link rel="shortcut icon" href="image/favicon.ico" type="image/x-icon">
   <title>百度一下，你就知道</title>
+
 </head>
 
 <body>
@@ -23,12 +24,22 @@
     </div>
     <div class="normal">
       <li><a href="https://passport.baidu.com" target="_blank">登录</a></li>
-      <li><a href="#">设置</a></li>
-    </div>
-    <div class="more">
-      <li><a href="#">更多产品</a></li>
-    </div>
+      <li id="setting">
+          <a href="#" >设置</a>
+          <!--设置菜单-->
+          <ul id="searchMenu">
+              <li><a href="#">搜索设置</a></li>
+              <li><a href="#">高级搜索</a></li>
+              <li><a href="#">关闭设置</a></li>
+              <li><a href="#">搜索历史</a></li>
+          </ul>
+      </li>
+     </div>
+  <div class="more">
+    <li><a href="#">更多产品</a></li>
+  </div>
   </ul>
+
 
   <!--页面主体：logo和搜索表单-->
   <div id="main">
@@ -78,5 +89,6 @@
   </div>
 
 </body>
+<script type="text/javascript" src="script.js"></script>
 
 </html>

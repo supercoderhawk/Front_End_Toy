@@ -13,3 +13,20 @@
 .secondLine{
     color: #999;
 }
+#searchMenu li{
+    font-family:arial;
+    font-size: 12px;
+}
+#searchMenu li:hover{
+    background: #38f;
+}
+#searchMenu li a{
+    text-decoration: none;
+}
+#searchMenu li:hover a{
+    color: white;
+}
+
+#searchButton{
+    color: white;
+}
