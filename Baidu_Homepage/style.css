@@ -7,13 +7,23 @@
 .barList a:visited,.barList a:link{
     color: black;
 }
+#sidebarTitle{
+    background-color: #38f;
+
+}
+#sidebarTitle a{
+    text-decoration: none;
+}
+#sidebarTitle a:visited,#sidebarTitle a:link{
+    color: white;
+}
 .footer a:visited, .footer a:link, .footer p{
     color: #999;
 }
 .secondLine{
     color: #999;
 }
-#searchMenu li{
+#searchMenu li a{
     font-family:arial;
     font-size: 12px;
 }
@@ -51,6 +61,7 @@
     background-position: -600px -96px;
     width: 14px;
     height: 17px;
+    text-align: center;
 
 }
 
