@@ -1,76 +1,81 @@
-.bold{
-    font-weight: bold;
-}
-.barList a{
-    font-size: 13px;
-}
-.barList a:visited,.barList a:link{
-    color: black;
-}
-#sidebarTitle{
-    background-color: #38f;
-
-}
-#sidebarTitle a{
-    text-decoration: none;
-}
-#sidebarTitle a:visited,#sidebarTitle a:link{
-    color: white;
-}
-.footer a:visited, .footer a:link, .footer p{
-    color: #999;
-}
-.secondLine{
-    color: #999;
-}
-#searchMenu li a{
-    font-family:arial;
-    font-size: 12px;
-}
-#searchMenu li:hover{
-    background: #38f;
-}
-#searchMenu li a{
-    text-decoration: none;
-}
-#searchMenu li:hover a{
-    color: white;
+*{
+  margin: 0;
+  padding: 0;
+  font-family: arial;
 }
 
-#searchButton{
-    color: white;
+#upperBar{
+  position: absolute;
+  margin: 19px 10px 5px;
+  right: 0;
 }
-.desc{
-    text-align: justify;
+#upperBar > li{
+  display: inline-block;
+  margin-left: 15px;
+  line-height: 24px;
 }
-.descFirst a:nth-child(2){
-    margin-left: 62px;
+#upperBar > li:nth-child(-n+6){
+  font-weight: bold;
 }
-.descFirst a:last-child{
-    margin-left: 62px;
+#upperBar > li:last-child{
+  background-color: #38f;
 }
-.desc p,.desc a{
-    font-size: 12px;
-    font-family: arial;
+#upperBar > li:last-child > a{
+  color: white;
+  text-decoration: none;
+  padding: 2px 3px;
 }
-.icp{
-    position: relative;
-    display: inline-block;
-    top: 3px;
-    background:url(./image/icons.png);
-    background-position: -600px -96px;
-    width: 14px;
-    height: 17px;
-    text-align: center;
+#upperBar > li > a{
+  color: black;
+  font-size: 13px;
+}
+
+#setting{
+  position: absolute;
+  display: none;
+  width: 70px;
+}
+#setting>li>a{
+  font-size: 12px;
+}
+#setting>li:hover{
+  background-color: #38f;
+}
+
+#sidebar{
 
 }
 
-.ga{
-    position: relative;
-    display: inline-block;
-    top: 3px;
-    background:url(./image/icons.png);
-    background-position: -623px -96px;
-    width: 14px;
-    height: 17px;
+#main{
+  text-align: center;
+}
+#main > img{
+  width: 270px;
+  height: 129px;
+}
+#main > form > span{
+  display: inline-block;
+  vertical-align: middle;
+}
+#main > form > span:nth-child(1){
+  width: 500px;
+  height: 30px;
+  border: 1px solid grey;
+}
+#main > form > span:nth-child(1) > input{
+  border: none;
+  display: block;
+  height: 100%;
+  width: 90%;
+  left: 0;
+}
+#main > form > span:nth-child(2){
+  width: 100px;
+  height: 30px;
+  border: 1px solid grey;
+  background-color: #38f;
+}
+#main > form > span:nth-child(2) > input{
+  width: 100%;
+  height: 100%;
 }
