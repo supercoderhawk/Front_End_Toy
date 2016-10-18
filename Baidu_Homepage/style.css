@@ -65,11 +65,17 @@
 #main>form>span {
     display: inline-block;
     vertical-align: middle;
+    margin: 0 -2px;
 }
 #main>form>span:nth-child(1) {
     width: 500px;
     height: 30px;
     border: 1px solid grey;
+    border-right: none;
+    position: relative;
+}
+#main>form>span:nth-child(1):focus{
+  border: 1px solid yellow;
 }
 #main>form>span:nth-child(1)>input {
     border: none;
@@ -77,18 +83,41 @@
     height: 100%;
     width: 90%;
     left: 0;
+    font-size: 16px;
+}
+#main>form>span:nth-child(1)>input:focus{
+  outline:none;
+}
+#soutu{
+  background:url(./image/camera.png);
+  display: block;
+  width: 18px;
+  height: 16px;
+  position: absolute;
+  right: 11px;
+  top: 50%;
+  margin-top: -8px;
+}
+#soutu:hover{
+  background:url(./image/camera.png);
+  background-position-y: -20px;
 }
 #main>form>span:nth-child(2) {
     width: 100px;
     height: 30px;
     border: 1px solid grey;
-    background-color: #38f;
 }
 #main>form>span:nth-child(2)>input {
     width: 100%;
     height: 100%;
+    font-size: 15px;
+    background-color: #38f;
+    color: white;
+    border: 0;
 }
-
+#main>form>span:nth-child(2)>input:hover{
+  background-color: rgb(49,126,243);
+}
 footer {
     position: absolute;
     bottom: 100px;
@@ -133,13 +162,13 @@ footer {
 #footerWrapper>div:last-child {
     position: absolute;
     left: 280px;
-    width: 324px;
+    width: 326px;
 }
 #footerWrapper>div:last-child > p {
     line-height: 20px;
 }
 #footerWrapper>div:last-child > p:nth-child(1) {
-    word-spacing: 4.2em;
+    word-spacing: 1.7em;
 }
 #footerWrapper>div:last-child > p > a{
   color: #999;
