@@ -39,14 +39,25 @@
 
 #setting {
     position: absolute;
-    display: none;
+    right: 67px;
+    top: 48px;
+    display: block;
     width: 70px;
+    list-style: none;
+    text-align: center;
+    box-shadow:0px 0px 3px 0px #666;
 }
 #setting>li>a {
     font-size: 12px;
+    text-decoration: none;
+    color: black;
+    line-height: 26px;
 }
 #setting>li:hover {
     background-color: #38f;
+}
+#setting>li:hover>a{
+  color: white;
 }
 
 #sidebar {
