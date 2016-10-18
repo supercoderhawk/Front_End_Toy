@@ -41,7 +41,7 @@
     position: absolute;
     right: 67px;
     top: 48px;
-    display: block;
+    display: none;
     width: 70px;
     list-style: none;
     text-align: center;
