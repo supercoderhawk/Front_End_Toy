@@ -1,81 +1,166 @@
-*{
-  margin: 0;
-  padding: 0;
-  font-family: arial;
+* {
+    margin: 0;
+    padding: 0;
+    font-family: arial;
 }
 
-#upperBar{
-  position: absolute;
-  margin: 19px 10px 5px;
-  right: 0;
+#wrapper {
+    position: relative;
+    min-width: 810px;
+    height: 100%;
+    min-height: 600px;
 }
-#upperBar > li{
-  display: inline-block;
-  margin-left: 15px;
-  line-height: 24px;
+
+#upperBar {
+    position: absolute;
+    margin: 19px 10px 5px;
+    right: 0;
 }
-#upperBar > li:nth-child(-n+6){
-  font-weight: bold;
+#upperBar>li {
+    display: inline-block;
+    margin-left: 15px;
+    line-height: 24px;
 }
-#upperBar > li:last-child{
-  background-color: #38f;
+#upperBar>li:nth-child(-n+6) {
+    font-weight: bold;
 }
-#upperBar > li:last-child > a{
-  color: white;
-  text-decoration: none;
-  padding: 2px 3px;
+#upperBar>li:last-child {
+    background-color: #38f;
 }
-#upperBar > li > a{
+#upperBar>li:last-child>a {
+    color: white;
+    text-decoration: none;
+    padding: 2px 3px;
+}
+#upperBar>li>a {
+    color: black;
+    font-size: 13px;
+}
+
+#setting {
+    position: absolute;
+    display: none;
+    width: 70px;
+}
+#setting>li>a {
+    font-size: 12px;
+}
+#setting>li:hover {
+    background-color: #38f;
+}
+
+#sidebar {
+    display: none;
+}
+
+#main {
+    text-align: center;
+    padding: 24px 0;
+}
+#main>img {
+    width: 270px;
+    height: 129px;
+    margin: 10px 0;
+}
+#main>form>span {
+    display: inline-block;
+    vertical-align: middle;
+}
+#main>form>span:nth-child(1) {
+    width: 500px;
+    height: 30px;
+    border: 1px solid grey;
+}
+#main>form>span:nth-child(1)>input {
+    border: none;
+    display: block;
+    height: 100%;
+    width: 90%;
+    left: 0;
+}
+#main>form>span:nth-child(2) {
+    width: 100px;
+    height: 30px;
+    border: 1px solid grey;
+    background-color: #38f;
+}
+#main>form>span:nth-child(2)>input {
+    width: 100%;
+    height: 100%;
+}
+
+footer {
+    position: absolute;
+    bottom: 100px;
+    width: 100%;
+    height: 70px;
+    font-size: 12px;
+    color: #999;
+}
+
+#footerWrapper {
+    position: absolute;
+    width: 600px;
+    height: 70px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+}
+#footerWrapper>div:first-child {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 140px;
+}
+#footerWrapper> div:nth-child(-n+2) > div {
+    position: absolute;
+    left: 70px;
+    top: 0;
+    margin: 4px 0 0 4px;
+}
+#footerWrapper>div:nth-child(-n+2) > div > p{
+  line-height: 22px;
+}
+#footerWrapper>div:nth-child(-n+2) > div > p:first-child{
   color: black;
-  font-size: 13px;
 }
-
-#setting{
-  position: absolute;
-  display: none;
-  width: 70px;
+#footerWrapper>div:nth-child(2) {
+    position: absolute;
+    left: 140px;
+    top: 0;
+    width: 140px;
 }
-#setting>li>a{
-  font-size: 12px;
+#footerWrapper>div:last-child {
+    position: absolute;
+    left: 280px;
+    width: 324px;
 }
-#setting>li:hover{
-  background-color: #38f;
+#footerWrapper>div:last-child > p {
+    line-height: 20px;
 }
-
-#sidebar{
-
+#footerWrapper>div:last-child > p:nth-child(1) {
+    word-spacing: 4.2em;
 }
-
-#main{
-  text-align: center;
+#footerWrapper>div:last-child > p > a{
+  color: #999;
+  word-spacing: 0;
 }
-#main > img{
-  width: 270px;
-  height: 129px;
+.icp{
+  position: relative;
+    display: inline-block;
+    top: 3px;
+    background:url(./image/icons.png);
+    background-position: -600px -96px;
+    width: 14px;
+    height: 17px;
+    text-align: center;
 }
-#main > form > span{
-  display: inline-block;
-  vertical-align: middle;
-}
-#main > form > span:nth-child(1){
-  width: 500px;
-  height: 30px;
-  border: 1px solid grey;
-}
-#main > form > span:nth-child(1) > input{
-  border: none;
-  display: block;
-  height: 100%;
-  width: 90%;
-  left: 0;
-}
-#main > form > span:nth-child(2){
-  width: 100px;
-  height: 30px;
-  border: 1px solid grey;
-  background-color: #38f;
-}
-#main > form > span:nth-child(2) > input{
-  width: 100%;
-  height: 100%;
+.ga{
+    position: relative;
+    display: inline-block;
+    top: 3px;
+    background:url(./image/icons.png);
+    background-position: -623px -96px;
+    width: 14px;
+    height: 17px;
 }
