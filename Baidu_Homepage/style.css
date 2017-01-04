@@ -3,7 +3,9 @@
     padding: 0;
     font-family: arial;
 }
-
+html,body{
+  height: 100%;
+}
 #wrapper {
     position: relative;
     min-width: 810px;
@@ -127,6 +129,8 @@ hr{
   border-top: 1px solid #988;
 }
 #main {
+    position: relative;
+    top: 15%;
     text-align: center;
     padding: 24px 0;
 }
