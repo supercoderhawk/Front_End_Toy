@@ -19,5 +19,13 @@
   "bugs": {
     "url": "https://github.com/xyb930826/Front_End_Toy/issues"
   },
-  "homepage": "https://github.com/xyb930826/Front_End_Toy#readme"
+  "homepage": "https://github.com/xyb930826/Front_End_Toy#readme",
+  "devDependencies": {
+    "babel-core": "^6.21.0",
+    "babel-loader": "^6.2.10",
+    "babel-preset-es2015": "^6.18.0",
+    "jquery": "^1.12.4",
+    "jquery.loadtemplate": "^1.5.10",
+    "webpack": "^1.14.0"
+  }
 }
