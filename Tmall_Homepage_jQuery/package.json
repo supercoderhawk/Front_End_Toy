@@ -1,0 +1,23 @@
+{
+  "name": "tmall_jquery",
+  "version": "1.0.0",
+  "description": "use jquery implement homepage of tmall",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xyb930826/Front_End_Toy.git"
+  },
+  "keywords": [
+    "tmall",
+    "jQuery"
+  ],
+  "author": "supercoderhawk",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xyb930826/Front_End_Toy/issues"
+  },
+  "homepage": "https://github.com/xyb930826/Front_End_Toy#readme"
+}
