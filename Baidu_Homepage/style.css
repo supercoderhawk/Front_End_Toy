@@ -273,3 +273,7 @@ footer {
     width: 14px;
     height: 17px;
 }
+
+#settingWrapper{
+  display: none;
+}
